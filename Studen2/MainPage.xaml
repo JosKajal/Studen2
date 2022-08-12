@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Studen2.MainPage">
+    <StackLayout BackgroundColor="Purple">
+        <Label Text="Student For Logistic"
+               
+               FontSize="40"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"
+               HorizontalOptions="Center" />
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20,0,20,20"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center"
+                         Spacing="20">
+                <Image Source="https://i.postimg.cc/VkwmQVv9/logo.png"  />
+                <Label Text="¡Tu experiencia estudiantil con nosotros!"
+                       FontAttributes="Bold"
+                       FontSize="40" />
+                <Button Text="Empezar"
+                        TextTransform="None"
+                        BackgroundColor="Yellow"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        x:Name="BtnIniciar"
+                        Clicked="BtnIniciar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

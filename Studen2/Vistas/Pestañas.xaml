@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Studen2.Vistas.Pestañas">
+    <Grid BackgroundColor="Violet">
+        <StackLayout VerticalOptions="Center" Margin="20">
+            <Image Source="https://i.postimg.cc/VkwmQVv9/logo.png"/>
+            <Frame HasShadow="False">
+                <Entry Keyboard="Email"
+                       Placeholder="Comentarios"
+                       TextColor="Green"
+                       x:Name="ComEntry"
+                       PlaceholderColor="Green"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <Button Text="Enviar" 
+                    CornerRadius="10" FontSize="Large" Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    Clicked="Button_Clicked"/>
+            
+        </StackLayout>
+    </Grid>
+</ContentPage>
